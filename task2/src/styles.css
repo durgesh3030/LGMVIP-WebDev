@@ -1,0 +1,88 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(90deg, #FF9933, #ffffff, #138808);
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border-radius: 50px;
+  font-size: 1.4em;
+  margin-top: 40px;
+  width: 140px;
+  height: 50px;
+  border: none;
+  background: linear-gradient(-45deg, #e9ca1e, #0f1bc5);
+  color: rgb(255, 255, 255);
+  padding: 8px 15px 8px 15px;
+  font-style: bold;
+}
+
+button:hover {
+  color: rgb(0, 0, 0);
+  background: #fae73d;
+}
+
+nav {
+  color: rgb(255, 255, 255);
+  padding: 10px 25px;
+  background-attachment: fixed;
+  background-color: #00000065;
+}
+nav img {
+  padding-bottom: 10px;
+  border-radius: 50px;
+  height: 5em;
+  width: 5em;
+  float: left;
+}
+
+.loader {
+  margin: 0 auto;
+}
+
+.avatar {
+  border-radius: 100px;
+  margin-bottom: 18px;
+}
+
+#main {
+  padding: 45px 10px;
+  margin: 0 auto;
+  display: none;
+}
+
+.info {
+  max-width: 350px;
+  margin: 15px 5px;
+  text-align: center;
+  font-family: arial;
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(-90deg, #33b4b4, #88f1f1);
+}
+.info:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+  background: linear-gradient(-5deg, #49eb33, #3a70e2);
+}
+.name {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.email {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  overflow-wrap: break-word;
+}
